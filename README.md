@@ -3,13 +3,13 @@ Geometry Transformation Engine (GTE) MIPS Coprocessor Re-Implementation frp, PS1
 
 Top level file is : GTEEngine.sv
 
-# Support feature
+## Supported features
 - All commands are supported.
 
-# Unsupported feature
-- None known.
+## Unsupported features
+- None currently known.
 
-# License
+## License
 
 PS-FPGA Licenses (DUAL License GPLv2 and commercial license)
 
