@@ -443,6 +443,7 @@ begin
 	end
 end
 
+`ifdef DEBUG_WRITEBACK
 `ifdef verilator 
 always @ (posedge i_clk)
 begin
@@ -637,6 +638,7 @@ begin
 	if ((i_regID == DR_LZCS    ) & i_WritReg) $display(" [GTE_WRB] RESLCSZ %02x = %08x", i_regID, i_dataIn );
 
 end
+`endif
 `endif
 
 wire [5:0] cntLeadInput; // 1..32 Value output
